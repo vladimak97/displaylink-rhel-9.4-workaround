@@ -1,5 +1,7 @@
 # Red Hat Enterprise Linux DisplayLink Driver: A Workaround Guide
 
+![Red Hat Enterprise Linux](https://github.com/vladimak97/displaylink-rhel-9.4-workaround/assets/82274091/a98dbfbf-46ee-43f5-8603-349d1e2ba3fa)
+
 This guide outlines the procedure I used to install the DisplayLink driver on my Dell Latitude E6530 laptop, running Red Hat Enterprise Linux 9.4 (Developer Edition). This configuration enables the use of a docking station—in my case, the Lenovo ThinkPad USB 3.0 Pro Dock (40A7)—with two or more monitors, specifically the Dell 22'' U2211Ht.
 
 Please note that this is a workaround, not an official driver specifically designed for Red Hat Enterprise Linux 9.4 (Developer Edition). While this method worked for me, it may not be effective on other versions or systems. However, it could be helpful for others encountering similar issues with this OS.
