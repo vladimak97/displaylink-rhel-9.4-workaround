@@ -6,7 +6,7 @@
 
 First, ensure that your system has all the necessary development tools and kernel headers installed. These are essential for building and compiling the DisplayLink driver components:
 
-sudo dnf install kernel-devel kernel-headers gcc make
+# sudo dnf install kernel-devel kernel-headers gcc make
 
 ### 2. Add the EPEL Repository
 
