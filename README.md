@@ -1,16 +1,14 @@
-# displaylink-rhel-9.4-workaround
+# Red Hat Enterprise Linux DisplayLink Driver: A Workaround Guide
+
+This guide outlines the procedure I used to install the DisplayLink driver on my Dell Latitude E6530 laptop, running Red Hat Enterprise Linux 9.4 (Developer Edition). This configuration enables the use of a docking station—in my case, the Lenovo ThinkPad USB 3.0 Pro Dock (40A7)—with two or more monitors, specifically the Dell 22'' U2211Ht.
+
+Please note that this is a workaround, not an official driver specifically designed for Red Hat Enterprise Linux 9.4 (Developer Edition). While this method worked for me, it may not be effective on other versions or systems. However, it could be helpful for others encountering similar issues with this OS.
 
 
 ## Disclaimer:
 
 **This document offers instructions based solely on my personal experience installing the DisplayLink driver on my laptop running Red Hat Enterprise Linux 9.4 (Developer Edition). Please be aware that this guide is not official and should not be considered professional advice. I take no responsibility for any outcomes resulting from the use of these instructions. Proceed at your own discretion.**
 
-
-# Red Hat Enterprise Linux DisplayLink Driver: A Workaround Guide
-
-This guide outlines the procedure I used to install the DisplayLink driver on my Dell Latitude E6530 laptop, running Red Hat Enterprise Linux 9.4 (Developer Edition). This configuration enables the use of a docking station—in my case, the Lenovo ThinkPad USB 3.0 Pro Dock (40A7)—with two or more monitors, specifically the Dell 22'' U2211Ht.
-
-Please note that this is a workaround, not an official driver specifically designed for Red Hat Enterprise Linux 9.4 (Developer Edition). While this method worked for me, it may not be effective on other versions or systems. However, it could be helpful for others encountering similar issues with this OS.
 
 ## Installation Steps
 
@@ -88,7 +86,7 @@ sudo reboot
 After rebooting, verify that the DisplayLink driver is working by connecting your DisplayLink device. Check the display settings to ensure that the connected monitors are recognized and functioning correctly.
 
 
-### Acknowledgments
+## Acknowledgments
  
 I would like to thank the creators and developers of the following key components, without which this guide would not have been possible.
 
