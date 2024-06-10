@@ -50,7 +50,7 @@ sudo make install
 
 ### 5. Install the DisplayLink Driver
 
-After installing EVDI, you will need to install the DisplayLink driver package. Since I could not find a specific DisplayLink driver for Red Hat Enterprise Linux 9.4, you can use the one for CentOS Stream 9, which is compatible. Just navigate to the directory containing the RPM file and use dnf to install it. This package includes all the required drivers for the DisplayLink hardware:
+After installing EVDI, you will need to install the DisplayLink driver package. Since I could not find a specific DisplayLink driver for Red Hat Enterprise Linux 9.4, you can use the one for CentOS Stream 9 (https://github.com/displaylink-rpm/displaylink-rpm/releases), which is compatible. Just navigate to the directory containing the RPM file and use dnf to install it. This package includes all the required drivers for the DisplayLink hardware:
 
 ```bash
 cd ~/Downloads
