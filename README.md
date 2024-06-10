@@ -102,5 +102,5 @@ DisplayLink driver: The DisplayLink driver enables the use of multiple monitors 
 
 https://github.com/displaylink-rpm/displaylink-rpm/releases
 
-We thank all the contributors to these projects for their work and dedication in creating and maintaining these valuable resources.
+I thank all the contributors to these projects for their work and dedication in creating and maintaining these valuable resources.
 
